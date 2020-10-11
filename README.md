@@ -173,7 +173,7 @@ orange c5 c1 c2 c3 c4
 
 ```
 
-***Note: All options described (-i, -c, -n), can be used together.
+***Note: All options described (-i, -c, -n), can be used together.***
 
 ### Generating random inputs ###
 
