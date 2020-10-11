@@ -179,7 +179,7 @@ orange c5 c1 c2 c3 c4
 
 A random map generator it is provided, so you can check the project. The program "genmap.c" works as follows:
 
-genmap _&lt;ncountries> \[ _&lt;uncolperc> \[ _&lt;density> \[ _&lt;tseed> \[ _&lt;colornum> ] ] ] ]
+genmap _&lt;ncountries> \[ _&lt;uncolperc> \[ _&lt;density> \[ _&lt;seed> \[ _&lt;colornum> ] ] ] ]
 
 * _&lt;ncountries>: The number of countries in the random map.
 * _&lt;uncolperc>: The percentage (integer from 1 to 100) of the uncolored countries. By default is 100.
@@ -196,3 +196,5 @@ $ ./genmap 200 | ./mapcol | ./mapcol -c
 $ ./genmap 1000 | ./mapcol | ./mapcol -c 
 
 ```
+
+It is included the statement of the project in Greek, which gives a more extensive description of the project.
