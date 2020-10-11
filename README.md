@@ -173,10 +173,10 @@ orange c5 c1 c2 c3 c4
 
 ```
 
-***Note: All options described (-i, -c, -n), can be used together***
+***\***Note: All options described (-i, -c, -n), can be used together***
 
 ### Generating random inputs ###
 
 A random map generator it is provided, so you can check the project. The program "genmap.c" works as follows:
 
-genmap &btncountries> \[ &ltuncolperc> \[ &ltdensity> \[ &ltseed> \[ &ltcolornum> ] ] ] ]
+genmap &btncountries> \[ \&ltuncolperc> \[ \&ltdensity> \[ \&ltseed> \[ \&ltcolornum> ] ] ] ]
