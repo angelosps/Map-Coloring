@@ -22,7 +22,7 @@ For example:
 
 ```
 
-Here is an example of representing validly a uncolored map.
+Here is an example of a valid representation of an uncolored map.
 
 ``` bash
 
