@@ -173,10 +173,26 @@ orange c5 c1 c2 c3 c4
 
 ```
 
-***\***Note: All options described (-i, -c, -n), can be used together.\***
+\***Note: All options described (-i, -c, -n), can be used together.
 
 ### Generating random inputs ###
 
 A random map generator it is provided, so you can check the project. The program "genmap.c" works as follows:
 
-genmap &btncountries> \[ _&lt;uncolperc> \[ _&lt;density> \[ _&lt;tseed> \[ _&lt;colornum> ] ] ] ]
+genmap _&lt;ncountries> \[ _&lt;uncolperc> \[ _&lt;density> \[ _&lt;tseed> \[ _&lt;colornum> ] ] ] ]
+
+* _&lt;ncountries>: The number of countries in the random map.
+* _&lt;uncolperc>: The percentage (integer from 1 to 100) of the uncolored countries. By default is 100.
+* _&lt;density>: The percentage (integer from 1 to 100) of the adjacent country pairs in order to all possible adjacent country pairs. By default is 30.
+* _&lt;seed>: The seed of random number generator. By default it is the current time.
+* _&lt;colornum>: The number of colors where it is guaranteed that the random generated map can colored with. By default is 4.
+
+Some examples of using the "genmap" generator:
+
+``` bash
+
+$ ./genmap 100 | ./mapcol | ./mapcol -c
+$ ./genmap 200 | ./mapcol | ./mapcol -c
+$ ./genmap 1000 | ./mapcol | ./mapcol -c 
+
+```
