@@ -25,7 +25,7 @@ For example:
 
 ```
 
-Here is an example of a valid representation of an uncolored map.
+Here is an example of a valid representation of an uncolored map from the test cases provided.
 
 ``` bash
 
@@ -64,7 +64,7 @@ $
 ```
   
 
-### Input the map from a file (option -i) ###
+### Input a map from file (option -i)
 
 This feature (-i) allows you to read the map directly from a text file instead of the standard input.
 In the example below, the given map (from the file using the -i command) cannot be colored using 4 colors and so the appropriate message is returned.
