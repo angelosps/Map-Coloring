@@ -13,8 +13,10 @@ An example of this line is:
 ``` bash
 <color> <country> <neighbour1> <neighbour2> <neighbour3> ...
 ```
+
 To be valid, the description of a map, must follow the rule: if a country **A** is adjacent to country **B**, 
-then the country **A** must contain the country **B** in its neighbours and the country **B** must contain the country **A** in its neighbours.  
+then the country **A** must contain the country **B** in its neighbours and the country **B** must contain the country **A** in its neighbours. 
+
 For example:
 
 ``` bash
