@@ -84,11 +84,11 @@ $
 ```
 
 
-### Check coloring validity of the map (option -c) ###
+### Check the coloring validity of a map (option -c) ###
 
-This option allows you to check a given, colored map if it is validly colored. If the map is not validly colored, the program finds and prints the coloring problems have been found (i.e.: more colors used, etc).
+This option allows you to check a given, colored map if it is validly colored. If the map is not validly colored, the program finds and prints the coloring problems have been found (i.e.: more colors used, map is not colored, etc).
 
-Here is an example of using the -c option:
+Here are some examples of using the -c option:
 
 ``` bash
 
@@ -162,7 +162,7 @@ $
 
 This option allows you to define the number of colors you want to use for coloring a map using the command "-n <colornum>"
 
-In example:
+In this example, we use 5 colors for coloring the map contained in "No4colors.txt" file, which cannot be colored using only 4 colors (as shown before, in the -i option).
 
 ``` bash
 
@@ -175,7 +175,7 @@ orange c5 c1 c2 c3 c4
 
 ```
 
-***Note: All options described (-i, -c, -n), can be used together.***
+\*** ***Note: All options described (-i, -c, -n), can be used together.***
 
 ### Generating random inputs ###
 
