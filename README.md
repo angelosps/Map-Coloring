@@ -5,7 +5,7 @@ The simplest version of the project is to read an uncolored map and color it usi
 It is proven that every map can be colored with no more than 4 colors, using the above restriction.   
 Reference for the "Four color theorem": https://en.wikipedia.org/wiki/Four_color_theorem.  
 
-![](https://miro.medium.com/max/1506/1*lJicbnUjVDhNnCrCHXcXMw.png)
+<img src = https://miro.medium.com/max/1506/1*lJicbnUjVDhNnCrCHXcXMw.png height = 250 width = 400> <img src = https://upload.wikimedia.org/wikipedia/commons/0/0a/Four_color_world_map.svg height = 250 width = 400> 
 
 A map is described by a text, where each line represents a country.  
 The first word represents the color of the country ("nocolor" for uncolored country), the second word is the name of the country, and the remaining words are the name of its neighbours.
