@@ -181,13 +181,13 @@ orange c5 c1 c2 c3 c4
 
 A random map generator it is provided, so you can check the project. The program "genmap.c" works as follows:
 
-genmap _&lt;ncountries> \[ _&lt;uncolperc> \[ _&lt;density> \[ _&lt;seed> \[ _&lt;colornum> ] ] ] ]
+genmap &lt;ncountries> \[ &lt;uncolperc> \[ &lt;density> \[ &lt;seed> \[ &lt;colornum> ] ] ] ]
 
-* _&lt;ncountries>: The number of countries in the random map.
-* _&lt;uncolperc>: The percentage (integer from 1 to 100) of the uncolored countries. By default is 100.
-* _&lt;density>: The percentage (integer from 1 to 100) of the adjacent country pairs in order to all possible adjacent country pairs. By default is 30.
-* _&lt;seed>: The seed of random number generator. By default it is the current time.
-* _&lt;colornum>: The number of colors where it is guaranteed that the random generated map can colored with. By default is 4.
+* &lt;ncountries>: The number of countries in the random map.
+* &lt;uncolperc>: The percentage (integer from 1 to 100) of the uncolored countries. By default is 100.
+* &lt;density>: The percentage (integer from 1 to 100) of the adjacent country pairs in order to all possible adjacent country pairs. By default is 30.
+* &lt;seed>: The seed of random number generator. By default it is the current time.
+* &lt;colornum>: The number of colors where it is guaranteed that the random generated map can colored with. By default is 4.
 
 Some examples of using the "genmap" generator:
 
