@@ -4,7 +4,9 @@ A CSP (Constraint Satisfaction Problem) about coloring maps with the restriction
 The simplest version of the project is to read an uncolored map and color it using at most 4 colors.  
 It is proven that every map can be colored with no more than 4 colors, using the above restriction.   
 Reference for the "Four color theorem": https://en.wikipedia.org/wiki/Four_color_theorem.  
- 
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/0a/Four_color_world_map.svg)
+
 A map is described by a text, where each line represents a country.  
 The first word represents the color of the country ("nocolor" for uncolored country), the second word is the name of the country, and the remaining words are the name of its neighbours.
 
