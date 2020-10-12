@@ -1,12 +1,12 @@
 # Map-Coloring
 :world_map: Project 4 for the course "Introduction to Programming" in Semester 1.  
-A CSP (Constraint Satisfaction Problem) about coloring maps without two adjacent countries having the same color.   
-It has been proved that, every map can be colored with no more than 4 colors, using the above restriction.   
+A CSP (Constraint Satisfaction Problem) about coloring maps with the restriction that no any two adjacent countries have the same color.  
+The simplest version of the project is to read an uncolored map and color it using at most 4 colors.  
+It is proven that every map can be colored with no more than 4 colors, using the above restriction.   
 Reference for the "Four color theorem": https://en.wikipedia.org/wiki/Four_color_theorem.  
-
-The simplest version of the project is to read an uncolored map and color it using at most 4 colors or returns an error message if the map can't be colored.  
-A map is described by a text, where each line represents a country. The first word represents the color of the country 
-("nocolor" for uncolored country), the second word is the name of the country, and the remaining words are the name of its neighbours.
+ 
+A map is described by a text, where each line represents a country.  
+The first word represents the color of the country ("nocolor" for uncolored country), the second word is the name of the country, and the remaining words are the name of its neighbours.
 
 An example of this line is:  
 
