@@ -1,6 +1,6 @@
 Compile and clean using the makefile
 
 ```bash
-make mapcol
-make clean
+$ make mapcol
+$ make clean
 ```
