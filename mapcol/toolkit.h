@@ -1,4 +1,5 @@
-int colcnt();
+int colCnt();
 void check();
-bool isok();
-bool checktheadj();
+bool isOK();
+bool checkAdj();
+bool coloring();

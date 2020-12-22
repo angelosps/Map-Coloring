@@ -1,2 +1,2 @@
 void sort();
-void partlysort();
+void partlySort();

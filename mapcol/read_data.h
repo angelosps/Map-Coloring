@@ -1,0 +1,2 @@
+void stdinRead();
+void fileRead();
