@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
+
 #include "globals.h"
 #include "toolkit.h"
 #include "sorts.h"
@@ -50,7 +51,7 @@ int main(int argc, char *argv[]){
         printf("%s %s ", adjlist[i].country_color, adjlist[i].country_name);
         for(int j=0; j<degree[i]; j++)
             printf("%s ", adjlist[i].adjacents[j]);
-        putchar(10);
+        printf("\n");
     }
 
     return 0;
