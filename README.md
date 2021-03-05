@@ -201,4 +201,14 @@ $ ./genmap 1000 | ./mapcol | ./mapcol -c
 
 ```
 
+### Usage:
+
+In the directory _mapcol/_ open a terminal and do the following for _compile_ and _clean_.
+After compiling, you can _run_ the program as described above using the various options. 
+
+``` bash
+$ make
+$ make clean 
+```
+
 It is included the statement of the project in Greek, which gives a more extensive description of the project.
