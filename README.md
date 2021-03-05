@@ -203,7 +203,7 @@ $ ./genmap 1000 | ./mapcol | ./mapcol -c
 
 ### Usage:
 
-In the directory _mapcol/_ open a terminal and do the following for _compile_ and _clean_.
+In the directory _mapcol/_ open a terminal and do the following for _compile_ and _clean_.  
 After compiling, you can _run_ the program as described above using the various options. 
 
 ``` bash
