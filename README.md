@@ -1,5 +1,5 @@
-# Map-Coloring
-:world_map: Project 4 for the course "Introduction to Programming" in Semester 1 @ University of Athens.     
+# :world_map: Map Coloring
+Project 4 for the course "Introduction to Programming" in Semester 1 @ University of Athens.     
 A CSP (Constraint Satisfaction Problem) about coloring maps with the restriction that no any two adjacent countries have the same color.  
 The simplest version of the project is to read an uncolored map and color it using at most 4 colors.  
 It is proven that every map can be colored with no more than 4 colors, using the above restriction.   
